@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "js_kadai2.css">
+    <title>電卓</title>
+  </head>
+  <body>
+    <main>
+      <div class = "dentaku">
+        <input readonly class = "nyuuryokuran" id = "result" value = 0>
+        <button onclick = "num_click(this.innerHTML)" class = "button_1" id = "number_button">7</button>
+        <button onclick = "num_click(this.innerHTML)" class = "button_1" id = "number_button">8</button>
+        <button onclick = "num_click(this.innerHTML)" class = "button_1" id = "number_button">9</button>
+        <button onclick = "ope_click(this.innerHTML)" class = "button_1" id = "operator_button">+</button><br>
+        <button onclick = "num_click(this.innerHTML)" class = "button_1" id = "number_button">4</button>
+        <button onclick = "num_click(this.innerHTML)" class = "button_1" id = "number_button">5</button>
+        <button onclick = "num_click(this.innerHTML)" class = "button_1" id = "number_button">6</button>
+        <button onclick = "ope_click(this.innerHTML)" class = "button_1" id = "operator_button">-</button><br>
+        <button onclick = "num_click(this.innerHTML)" class = "button_1" id = "number_button">1</button>
+        <button onclick = "num_click(this.innerHTML)" class = "button_1" id = "number_button">2</button>
+        <button onclick = "num_click(this.innerHTML)" class = "button_1" id = "number_button">3</button>
+        <button onclick = "ope_click(this.innerHTML)" class = "button_1" id = "operator_button">×</button><br>
+        <button onclick = "num_click(this.innerHTML)" class = "button_2" id = "number_button">0</button>
+        <button onclick = "dot_click(this.innerHTML)" class = "button_1" id = "number_button">.</button>
+        <button onclick = "ope_click(this.innerHTML)" class = "button_1" id = "operator_button">÷</button><br>
+        <button onclick = "clear_click()" class="button_2" id = "clear_button">AC</button>
+        <button onclick = "equal_click()" class="button_2" id = "operator_button">=</button>
+      </div>
+    </main>
+    <script src = "js_kadai2.js"></script>
+  </body>
+</html>
